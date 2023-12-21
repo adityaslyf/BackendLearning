@@ -29,6 +29,8 @@ app.get("/", function (req, res) {
   });
 });
 
-app.post('/',)
+app.post('/',function(res,req){
+  console.log("hi")
+})
 
 app.listen(3000);
